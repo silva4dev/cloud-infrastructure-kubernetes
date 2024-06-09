@@ -9,4 +9,5 @@ spec:
   ports: 
   - name: goserver-service
     port: 3000
+    targetPort: 8080
     protocol: TCP
